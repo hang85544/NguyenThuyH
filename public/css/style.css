@@ -1,0 +1,310 @@
+.menu{
+    padding: 18px;
+    background: #679509;
+    color: aliceblue;
+}
+.menu .text-head span{
+    font-weight: 600;
+}
+.menu .item-bar .compare:hover{
+color: #a5d554;
+}
+.box-in{
+    display: flex;
+    position: relative;
+}
+.item-bar.compare{
+    font-size: 0.5rem;
+}
+.item-bar{
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+.navbar{
+    display: flex;
+    padding: 20px 0;
+    margin-right: -30px;
+}
+.nav-link{
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #A5A5A5;
+    padding: 0 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #679509;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: #679509;
+}
+.main-img{
+    height: 800px;
+    background: url(../images/bgMain.jpg);
+    background-size: cover;
+    position: relative;
+}
+.main-top{
+    position: absolute;
+    top: 150px;
+}
+.title-page{
+    font-size: 5rem;
+    font-weight: 700;
+}
+.title-page span{
+    color: #679509;
+}
+.main-top p{
+    color: #363636;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.344em;
+}
+.add-cart{
+    display: inline-block;
+    padding: 15px 35px;
+    background: #679509;
+    color: white;
+    font-weight: 500;
+}
+.add-cart:hover{
+    color: white;
+    text-decoration: none;
+    background: black;
+}
+.welcome-healthy{
+    text-align: center;
+}
+.welcome-healthy h1{
+    color: #86ae34;
+    font-family: cursive;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1em;
+    margin: 50px 0;
+}
+.requite{
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1em;
+}
+.pt-sans{
+    font-family: sans-serif;
+    color: #8b8b8b;;
+}
+.vegetavle{
+    margin: 100px 0;
+}
+.mouse-on:hover{
+    opacity: 0.5;   
+}
+.tool-pro{
+    display: flex;
+    padding: 0 250px;
+}
+.tool-pro div{
+    font-family: inherit;
+    font-weight: 500;
+    color: #8b8b8b;
+}
+.tool-pro div:first-child{
+    color: #679509;
+}
+.tool-pro div:hover{
+    color: #679509;
+}
+.product-image{
+    border: 1px solid rgb(243, 222, 222);
+}
+.add-hidden{
+    padding: 19px 0;
+    display: none;
+    transition: all 2s;
+}
+.pro-cart{
+    padding: 10px;
+    background: #679509;
+    margin: 15px 0;
+    color: white;
+    font-weight: 500;
+    transition: background 0.5s;
+}
+.pro-cart:hover{
+    background: black;
+}
+.icon-pro{
+    color: black;
+    padding: 10px 30px;
+}
+.icon-pro:hover{
+    color: #679509;
+}
+/* .change-img:hover .product-image{
+    background: url(../images/Cascadian-Farm-Organic-Cinnamon-Crunch-9.2-OZ_2-600x600-1.png);
+    z-index: 2;
+} */
+.change-img:hover .add-hidden{
+    display: block;
+}
+.change-img:hover .add-display{
+    /* animation: hidden 1s forwards; */
+    display: none;
+}
+.add-display p:first-child,.add-display p ~ p ~ p{
+    color: #679509;
+}
+.banner3{
+    padding: 150px;
+    text-align: center;
+    height: 700px;
+    background: url(../images/banners3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+.banner3 p{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.banner3 span{
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: 500;
+}
+.shop-now{
+    font-weight: 500;
+    padding: 20px 30px;
+    background:  #86AE34;
+    color: white;
+    text-decoration: none;
+    transition: background 0.5s;
+}
+.shop-now:hover{
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+@keyframes hidden{
+    0%{
+        opacity: 1;
+        height: 104;
+    }
+    100%{
+        opacity: 0.1;
+        height: 0;
+    }
+}
+.vitamin{
+    padding: 0 100px;
+}
+.source-vitamin span{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+    font-family: cursive;
+}
+.source-vitamin p{
+    color: #A5A5A5;
+}
+.blog{
+    margin-top: 150px;
+}
+.info-post{
+    margin-top: 20px;
+}
+.info-post a{
+    color: #4F4F4F;;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: color 0.5s;
+}
+.info-post a:hover{
+    color: #86ae34;
+    text-decoration: none;
+}
+.info-post p{
+    color: #A5A5A5;
+}
+.ceread{
+    margin-top: 150px;
+}
+.cold{
+    margin-bottom: 50px;
+}
+.food{
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: cursive;
+    padding-right: 90px;
+}
+.price{
+    font-size: 1.1rem;
+}
+.price div a,.price div ~ p ~ p{
+    color: #679509;
+}
+.price div a:hover{
+    color: black;
+}
+.price p a{
+    color: #8b8b8b;
+}
+.price p a:hover{
+    color: #679509;
+}
+.price a{
+    text-decoration: none;
+}
+.price a:hover{
+    text-decoration: none;
+}
+.box-img{
+    border: 1px solid #f0ecec;
+}
+.client{
+    background: url(../images/bg5.jpg);
+    height: 700px;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+.customer h1, .subscibe h1{
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+footer{
+    padding-top: 170px;
+    height: 500px;
+    background: url(../images/footer-widgets-bg.webp);
+    font-size: 0.9rem;
+}
+.last-footer h4{
+    margin-bottom: 20px;
+    opacity: 0.95;
+    font-family: cursive;
+}
+.last-footer p{
+    color: gray;
+}
+.last-footer p a{
+    color: gray;
+    text-decoration: none;
+    font-weight: 450;
+}
+.last-footer p a:hover{
+    color: #81b90f;
+    text-decoration: none;
+}
+.last-footer p:hover a{
+    color: #81b90f!important;
+}
+.ghichu{
+    margin-top: -15px;
+}
